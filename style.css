@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+}
+
+.banner-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 600px;
+  max-width: 1320px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-image: url("asset/images/banner-image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+.banner-content p,
+h1 {
+  color: white;
+}
+.banner-content {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner-content p {
+  font-size: 40px;
+  font-weight: 400px;
+}
+.banner-content h1 {
+  font-size: 72px;
+  font-weight: 900px;
+  text-align: center;
+}
+/* 65% Off Section Start here */
+.first-section-container {
+  height: 806px;
+  width: 803px;
+  border: 2px solid rebeccapurple;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+
+.title-container {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-container h2 {
+  font-size: 88px;
+  font-weight: 700px;
+  line-height: 100px;
+}
